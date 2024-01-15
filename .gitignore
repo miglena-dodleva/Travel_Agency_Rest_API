@@ -1,0 +1,12 @@
+# Ignore compiled binaries and build artifacts
+*.exe
+*.o
+/build/
+
+# Ignore sensitive information
+config.json
+secrets.yaml
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
